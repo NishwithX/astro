@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "https://satnaing.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "SudoByte",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "https://lh3.googleusercontent.com/ogw/AF2bZyiRVQBcjMnHzmOWIG5alF7aTh9YkStKCDoLxLS-PpY5mLo",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
