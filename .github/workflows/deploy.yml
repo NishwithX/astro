@@ -18,7 +18,7 @@ jobs:
 
       - name: Build and export static files
         run: |
-          docker build -t astro-build .
+          docker build -t visible-virgo .
           docker create --name extract astro-build
           docker cp extract:/output ./dist
           docker rm extract
