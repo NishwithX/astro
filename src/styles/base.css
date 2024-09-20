@@ -1,6 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  font-family: 'Inter', 'Source Serif Pro', ui-serif,Cambria, serif;
+  font-weight: 400; /* Ensure the font weight is set */
+}
+
 
 @layer base {
   :root,
