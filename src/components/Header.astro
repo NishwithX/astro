@@ -38,16 +38,7 @@ const { activeNav } = Astro.props;
               Posts
             </a>
           </li>
-          <li class="tags-item">
-            <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
-              Tags
-            </a>
-          </li>
-          <li class="about-item mobile-hidden">
-            <a href="/about/" class={activeNav === "about" ? "active" : ""}>
-              About
-            </a>
-          </li>
+       
           <div class="mobile-controls ml-auto">
             {
               SITE.lightAndDarkMode && (
