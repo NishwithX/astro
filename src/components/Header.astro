@@ -28,7 +28,7 @@ const { activeNav } = Astro.props;
             <img src="https://lh3.googleusercontent.com/ogw/AF2bZyiRVQBcjMnHzmOWIG5alF7aTh9YkStKCDoLxLS-PpY5mLo" alt="Site Logo" width="50" height="50" class="round-logo" />
           )
         }
-        <span class="ml-2 text-lg font-bold">SudoByte</span>
+        <span class="site-name ml-2 text-lg font-bold">SudoByte</span>
       </a>
 
       <nav id="nav-menu">
@@ -43,7 +43,7 @@ const { activeNav } = Astro.props;
               Tags
             </a>
           </li>
-          <li class="mobile-hidden">
+          <li class="about-item mobile-hidden">
             <a href="/about/" class={activeNav === "about" ? "active" : ""}>
               About
             </a>
@@ -132,7 +132,7 @@ const { activeNav } = Astro.props;
 
   /* Hide tags item on mobile view */
   @media (max-width: 640px) {
-    .tags-item {
+    .tags-item, .about-item, .site-name {
       display: none;
     }
   }
