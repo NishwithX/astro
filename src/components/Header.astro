@@ -22,13 +22,12 @@ const { activeNav } = Astro.props;
               alt={SITE.title}
               width={LOGO_IMAGE.width}
               height={LOGO_IMAGE.height}
-              class="round-logo"
             />
           ) : (
-            <img src="https://media.tenor.com/c7Nu2MXfK_4AAAAi/milk.gif" alt="Site Logo" width="50" height="50" class="round-logo" />
+            <img src="https://media.tenor.com/c7Nu2MXfK_4AAAAi/milk.gif" alt="Site Logo" width="50" height="50" />
           )
         }
-        <span class="site-name ml-2 text-lg font-bold">SudoByte</span>
+        <span class="site-name ml-2 text-lg font-bold">Chai</span>
       </a>
 
       <nav id="nav-menu">
@@ -128,6 +127,7 @@ const { activeNav } = Astro.props;
     }
   }
 
+  /* Remove this block */
   .round-logo {
     border-radius: 50%; /* Make the logo round */
   }
